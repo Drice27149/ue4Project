@@ -39,4 +39,4 @@
     Exception in thread "main" java.util.zip.ZipException: error in opening zip file...
     ```
 
-    错误的原因是自动下载的gradle-5.4.1-all.zip是不完整的, 到gradle官网上下载相同的包替换即可。
+    错误的原因是自动下载的gradle-5.4.1-all.zip是不完整的, 到gradle官网上下载相同的包把本地的替换即可。
