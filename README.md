@@ -16,7 +16,7 @@
 
   * 编译途中visual studio报 fatal error, 错误代号有C3859, C1076, C1060
 
-    参考https://docs.microsoft.com/en-us/cpp/error-messages/compiler-errors-1/fatal-error-c1060?view=vs-2019, 错误的原因是编译时电脑虚拟内存不足。做了以下两步之后问题解决
+    参考[MS文档对这个错误的描述](https://docs.microsoft.com/en-us/cpp/error-messages/compiler-errors-1/fatal-error-c1060?view=vs-2019), 错误的原因是编译时电脑虚拟内存不足。做了以下两步之后问题解决
 
     *  把"/Zm1000"改为"/Zm200"
     *  在电脑设置中手动提升虚拟内存的上限
